@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="game.GameTest" time="0.078" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="14.0.2+12"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-14.0.2.12-hotspot\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\jdiaz\GitAssigment\jondiiiSPQ2021\GameAdventureStrategyMaven"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\jdiaz\GitAssigment\jondiiiSPQ2021\GameAdventureStrategyMaven"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="14.0.2+12"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\jdiaz\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\SPQ\utilities\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="MS932"/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-14.0.2.12-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\AdoptOpenJDK\jdk-14.0.2.12-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Haskell\bin;C:\Program Files\Haskell Platform\8.6.5\lib\extralibs\bin;C:\Program Files\Haskell Platform\8.6.5\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Haskell Platform\8.6.5\mingw\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\AdoptOpenJDK\jdk-14.0.2+12\bin;C:\apache-ant-1.10.9\bin;C:\mysql-8.0.22-winx64\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\jdiaz\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\jdiaz\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jdiaz\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\jdiaz\AppData\Local\Programs\Python\Python38-32\;C:\Users\jdiaz\AppData\Local\Programs\Python\Launcher\;C:\Users\jdiaz\AppData\Roaming\cabal\bin;C:\Users\jdiaz\AppData\Roaming\local\bin;C:\Users\jdiaz\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\sqlite;C:\Users\jdiaz\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\jdiaz\AppData\Local\Microsoft\WindowsApps;C:\Users\jdiaz\AppData\Local\Programs\Microsoft VS Code\bin;C:\SPQ\utilities\apache-maven-3.6.3\bin;;."/>
+    <property name="maven.conf" value="C:\SPQ\utilities\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\SPQ\utilities\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\jdiaz"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="Jon"/>
+    <property name="java.class.path" value="C:\SPQ\utilities\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-14.0.2.12-hotspot"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.stderr.encoding" value="ms932"/>
+    <property name="maven.home" value="C:\SPQ\utilities\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="sun.stdout.encoding" value="ms932"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="game.GameTest" name="testGame" time="0.078"/>
+</testsuite>
